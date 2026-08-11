@@ -1,4 +1,4 @@
-# Pandas for Data Science 🐼
+# Pandas 
 
 A comprehensive collection of Python programs and Jupyter notebooks covering the **Pandas library** and its essential concepts for Data Science.
 
@@ -10,27 +10,27 @@ This repository documents my journey of learning and practicing Pandas, starting
 
 This repository covers the major concepts of Pandas, including:
 
-- 🐼 Introduction to Pandas
-- 📊 Series
-- 🗃️ DataFrames
-- 🔍 Selecting and filtering data
-- ✏️ Adding, updating, and deleting data
-- 🔄 Sorting data
-- 📦 GroupBy and aggregation
-- 🔗 Merging and joining DataFrames
-- 🧹 Data cleaning
-- ❌ Handling missing values
-- 🔢 Working with numerical data
-- 📝 Working with strings
-- 📅 Working with dates and time
-- 🔄 Applying functions
-- 📈 Data analysis
-- 📋 Reading and writing CSV files
-- 📁 Reading and working with different data formats
-- 🔎 Data selection and indexing
-- 🧮 Aggregation and statistical operations
-- ⚡ Useful Pandas methods and techniques
-- 🚀 Advanced Pandas concepts
+-  Introduction to Pandas
+-  Series
+-  DataFrames
+-  Selecting and filtering data
+-  Adding, updating, and deleting data
+-  Sorting data
+-  GroupBy and aggregation
+-  Merging and joining DataFrames
+-  Data cleaning
+-  Handling missing values
+-  Working with numerical data
+-  Working with strings
+-  Working with dates and time
+-  Applying functions
+-  Data analysis
+-  Reading and writing CSV files
+-  Reading and working with different data formats
+-  Data selection and indexing
+-  Aggregation and statistical operations
+-  Useful Pandas methods and techniques
+-  Advanced Pandas concepts
 
 ---
 
