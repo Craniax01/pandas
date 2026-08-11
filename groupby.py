@@ -106,3 +106,32 @@ df.head()
 #total number of orders for each city
 df.groupby("city")['quantity'].count()
 
+#total number of order for each product category
+df.groupby("category")['order_id'].count()
+
+#total quantity of products sold for each category
+df.groupby("category")['quantity'].sum()
+
+#average unit_price for each product category
+df.groupby ("category")['unit_price'].mean()
+
+#maximum unit_price for each category
+df.groupby ("category")['unit_price'].max()
+
+#minimum unit_price for each category
+df.groupby ("category")['unit_price'].min()
+
+#total quantity sold for each product
+df.groupby ("product")['quantity'].sum()
+
+#total number of orders handlesd by each salesperson 
+df.groupby ("salesperson")['order_id'].count()
+
+#total sales amount for each category 
+df.groupby ("category")['unit_price'].sum()
+
+# total sales amount for each category.
+df["sales_amount"] = df["quantity"] * df["unit_price"]
+df.groupby("category")["sales_amount"].sum()
+
+
